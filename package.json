@@ -1,0 +1,28 @@
+{
+  "name": "5star-cinematography-monorepo",
+  "version": "1.0.0",
+  "description": "5Star Cinematography — Production Full-Stack Photography & Cinematography Platform",
+  "private": true,
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "create-admin": "npm --prefix server run create-admin"
+  },
+  "keywords": [
+    "photography",
+    "cinematography",
+    "wedding",
+    "mongodb-atlas",
+    "gridfs",
+    "react",
+    "vite",
+    "express",
+    "permanent-qr",
+    "live-photos"
+  ],
+  "author": "5Star Cinematography Team",
+  "license": "ISC"
+}

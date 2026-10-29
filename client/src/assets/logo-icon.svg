@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="goldIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E6C8" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+    <linearGradient id="goldBlade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3E5AB" />
+      <stop offset="100%" stop-color="#C5A059" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Lens Ring -->
+  <circle cx="50" cy="50" r="46" stroke="url(#goldIconGrad)" stroke-width="3" fill="#121215" />
+  <circle cx="50" cy="50" r="39" stroke="#4a3f23" stroke-width="1.5" stroke-dasharray="3 3" fill="none" />
+  
+  <!-- Aperture Blades -->
+  <path d="M50 18 L65 42 L35 42 Z" fill="url(#goldBlade)" opacity="0.85" />
+  <path d="M82 50 L58 65 L58 35 Z" fill="url(#goldBlade)" opacity="0.85" />
+  <path d="M50 82 L35 58 L65 58 Z" fill="url(#goldBlade)" opacity="0.85" />
+  <path d="M18 50 L42 35 L42 65 Z" fill="url(#goldBlade)" opacity="0.85" />
+
+  <!-- Center Star -->
+  <g transform="translate(50, 50) scale(0.85)" fill="url(#goldIconGrad)">
+    <polygon points="0,-16 4.9,-4.9 16,-4.9 7,1.7 10.3,12.9 0,6.4 -10.3,12.9 -7,1.7 -16,-4.9 -4.9,-4.9" />
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" fill="none">
+  <defs>
+    <linearGradient id="goldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A7B1C" />
+      <stop offset="50%" stop-color="#B8860B" />
+      <stop offset="100%" stop-color="#7B5B05" />
+    </linearGradient>
+  </defs>
+
+  <!-- Camera Aperture & Film Emblem -->
+  <g transform="translate(10, 8)">
+    <circle cx="42" cy="42" r="38" stroke="url(#goldGradLight)" stroke-width="2.5" fill="#FAFAFA" />
+    <circle cx="42" cy="42" r="32" stroke="#D1B872" stroke-width="1" stroke-dasharray="2 3" fill="none" />
+    
+    <!-- Aperture Blades -->
+    <path d="M42 16 L54 36 L30 36 Z" fill="url(#goldGradLight)" opacity="0.85" />
+    <path d="M68 42 L48 54 L48 30 Z" fill="url(#goldGradLight)" opacity="0.85" />
+    <path d="M42 68 L30 48 L54 48 Z" fill="url(#goldGradLight)" opacity="0.85" />
+    <path d="M16 42 L36 30 L36 54 Z" fill="url(#goldGradLight)" opacity="0.85" />
+
+    <!-- Center Star -->
+    <g transform="translate(42, 42) scale(0.65)" fill="url(#goldGradLight)">
+      <polygon points="0,-14 4.3,-4.3 14,-4.3 6.1,1.5 9,11.3 0,5.6 -9,11.3 -6.1,1.5 -14,-4.3 -4.3,-4.3" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(105, 22)" fill="url(#goldGradLight)">
+    <polygon points="0,-6 1.8,-1.8 6,-1.8 2.6,0.6 3.9,4.8 0,2.4 -3.9,4.8 -2.6,0.6 -6,-1.8 -1.8,-1.8" />
+    <polygon points="15,-6 16.8,-1.8 21,-1.8 17.6,0.6 18.9,4.8 15,2.4 11.1,4.8 12.4,0.6 9,-1.8 13.2,-1.8" />
+    <polygon points="30,-6 31.8,-1.8 36,-1.8 32.6,0.6 33.9,4.8 30,2.4 26.1,4.8 27.4,0.6 24,-1.8 28.2,-1.8" />
+    <polygon points="45,-6 46.8,-1.8 51,-1.8 47.6,0.6 48.9,4.8 45,2.4 41.1,4.8 42.4,0.6 39,-1.8 43.2,-1.8" />
+    <polygon points="60,-6 61.8,-1.8 66,-1.8 62.6,0.6 63.9,4.8 60,2.4 56.1,4.8 57.4,0.6 54,-1.8 58.2,-1.8" />
+  </g>
+
+  <text x="105" y="55" font-family="'Cinzel', 'Playfair Display', serif" font-size="28" font-weight="800" fill="#18181B" letter-spacing="3">5STAR</text>
+  <text x="106" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="url(#goldGradLight)" letter-spacing="5">CINEMATOGRAPHY</text>
+  <text x="106" y="87" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="500" fill="#52525B" letter-spacing="2">TIMELESS WEDDING FILMS &amp; STILLS</text>
+</svg>
