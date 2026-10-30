@@ -62,7 +62,7 @@ export const getShareBaseUrl = () => {
   if (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
     return window.location.origin;
   }
-  return 'https://5starphotos.vercel.app';
+  return 'https://5starcinematography.vercel.app';
 };
 
 // API Endpoints

@@ -152,7 +152,7 @@ export const downloadAllLivePhotos = async (req, res) => {
 // Public/Admin: returns the permanent QR code pointing to the live sharing URL
 export const getPermanentQRCode = async (req, res) => {
   try {
-    const clientUrl = process.env.CLIENT_URL || 'https://5starphotos.vercel.app';
+    const clientUrl = process.env.CLIENT_URL || 'https://5starcinematography.vercel.app';
     const permanentLiveUrl = `${clientUrl}/live`;
 
     // Generate high quality QR code data URL (PNG)
